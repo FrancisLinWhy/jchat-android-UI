@@ -1,0 +1,15 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 22
+    }
+    namespace 'com.sj.emoji'
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:22.1.1'
+}
